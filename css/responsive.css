@@ -1,0 +1,78 @@
+@media screen and (max-width:767px){
+    header{
+        text-align: center;
+    }
+    header .nav-link{
+        text-align: left;
+        margin: .5rem 0;
+    }
+    header h1{
+        font-size: 3rem;
+    }
+    header p{
+        margin: 0;
+        margin: 2rem 0;
+    }
+    .nav-item{
+        background-color: #fff;
+        margin-left: 1rem;
+    }
+    .navbar-nav{
+        box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    }
+    .about-heading{
+        font-size: 3rem;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    #info-section{
+        text-align: center;
+    }
+}
+
+@media (min-width:575px) and (max-width:991px){
+    
+    .services-part-2{
+        display: flex;
+    }
+    .services-part-1{
+        display: none;
+    }
+}
+@media screen and (min-width:991px){
+    .dept-part-1{
+        display: none;
+    }
+    .dept-part-2{
+        display: block;
+    }
+}
+@media screen and (max-width:575px){
+    .blog-part-1{
+        display: none;
+    }
+    .blog-part-2{
+        display: block;
+    }
+    header{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #service-section{
+        padding: 0rem;
+    }
+    #department-section{
+        padding-top: 3rem;
+    }
+    #doctor-section{
+        padding: 4rem 0;
+        padding-top: 2rem;
+    }
+    #info-section{
+        padding: 4rem 0;
+    }
+    .info-para{
+        width: 100%;
+    }
+}
